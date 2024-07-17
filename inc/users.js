@@ -27,7 +27,6 @@ module.exports = {
                 if (err) {
                     reject(err);
                 } else {
-
                     if (!results.length > 0) {
 
                         reject('Usuário ou senha incorretos.');
